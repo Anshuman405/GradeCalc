@@ -1,0 +1,9 @@
+2024-07-18 15:47:00 - 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+Traceback (most recent call last):
+  File "/Users/geethavenkat27/Desktop/GradeCalc/api/index.py", line 82, in calculate
+    percentage = float(request.form[f'percentage_{i}'])
+                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/geethavenkat27/Desktop/GradeCalc/venv/lib/python3.12/site-packages/werkzeug/datastructures/structures.py", line 196, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+

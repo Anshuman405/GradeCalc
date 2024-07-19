@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const districtSelect = document.getElementById('district');
+            const gradeSelect = document.getElementById('grade_number');
+            const schoolSelect = document.getElementById('school_name');
+
+            async function updateSchools() {
+                const district = districtSelect.value;
+                const grade = gradeSelect.value;
+                schoolSelect.innerHTML = '<option value="">Select School</option>'; // Reset school options
+
+                if (district && grade) {
+                    const response = await fetch('/get_schools', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ district: district, grade: grade })
+                    });
+                    const schools = await response.json();
+                    schools.forEach(school => {
+                        const option = document.createElement('option');
+                        option.value = school;
+                        option.textContent = school;
+                        schoolSelect.appendChild(option);
+                    });
+                }
+            }
+
+            districtSelect.addEventListener('change', updateSchools);
+            gradeSelect.addEventListener('change', updateSchools);
+        });
+    </script>
+</head>
+<body>
+    <h1>Enter Student Information</h1>
+    <form method="post" action="/submit">
+        <label for="student_id">Student ID:</label>
+        <input type="text" id="student_id" name="student_id" pattern="\d{7}" title="Student ID must be exactly 7 digits long and contain only numbers." required><br>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br>
+        <label for="district">District:</label>
+        <select id="district" name="district" required>
+            <option value="">Select District</option>
+            {% for district in school_data.keys() %}
+            <option value="{{ district }}">{{ district }}</option>
+            {% endfor %}
+        </select><br>
+        <label for="grade_number">Grade Number:</label>
+        <select id="grade_number" name="grade_number" required>
+            <option value="">Select Grade</option>
+            <option value="Kindergarten">Kindergarten</option>
+            <option value="1st">1st Grade</option>
+            <option value="2nd">2nd Grade</option>
+            <option value="3rd">3rd Grade</option>
+            <option value="4th">4th Grade</option>
+            <option value="5th">5th Grade</option>
+            <option value="6th">6th Grade</option>
+            <option value="7th">7th Grade</option>
+            <option value="8th">8th Grade</option>
+        </select><br>
+        <label for="school_name">School Name:</label>
+        <select id="school_name" name="school_name" required>
+            <option value="">Select School</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Result</title>
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="./static/css/print.css" media="print">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculation Result</h1>
+        <table>
+            <tr>
+                <th>Student ID</th>
+                <td>{{ student_id }}</td>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <td>{{ first_name }}</td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>{{ last_name }}</td>
+            </tr>
+            <tr>
+                <th>School Name</th>
+                <td>{{ school_name }}</td>
+            </tr>
+            <tr>
+                <th>District</th>
+                <td>{{ district }}</td>
+            </tr>
+            <tr>
+                <th>Grade Number</th>
+                <td>{{ grade_number }}</td>
+            </tr>
+            <tr>
+                <th>Percentage</th>
+                <td>{{ percentage }}</td>
+            </tr>
+            <tr>
+                <th>Grade</th>
+                <td>{{ grade }}</td>
+            </tr>
+        </table>
+        <button onclick="window.print()">Print</button>
+        <footer>
+            <a href="/">Calculate Another Grade</a>
+        </footer>
+    </div>
+</body>
+</html>

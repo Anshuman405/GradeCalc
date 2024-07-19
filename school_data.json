@@ -1,0 +1,35 @@
+{
+    "NSD": {
+        "Kindergarten": ["Arrowhead Elementary School", "Canyon Creek Elementary School", "Cottage Lake Elementary School", "Crystal Springs Elementary School", "East Ridge Elementary School", "Fernwood Elementary School", "Frank Love Elementary School", "Hollywood Hill Elementary School", "Kenmore Elementary School", "Kokanee Elementary School", "Lockwood Elementary School", "Maywood Hills Elementary School", "Moorlands Elementary School", "Ruby Bridges Elementary School", "Shelton View Elementary School", "Sunrise Elementary School", "Wellington Elementary School", "Westhill Elementary School", "Woodin Elementary School", "Woodmoor Elementary School"],
+        "1st": ["Arrowhead Elementary School", "Canyon Creek Elementary School", "Cottage Lake Elementary School", "Crystal Springs Elementary School", "East Ridge Elementary School", "Fernwood Elementary School", "Frank Love Elementary School", "Hollywood Hill Elementary School", "Kenmore Elementary School", "Kokanee Elementary School", "Lockwood Elementary School", "Maywood Hills Elementary School", "Moorlands Elementary School", "Ruby Bridges Elementary School", "Shelton View Elementary School", "Sunrise Elementary School", "Wellington Elementary School", "Westhill Elementary School", "Woodin Elementary School", "Woodmoor Elementary School"],
+        "2nd": ["Arrowhead Elementary School", "Canyon Creek Elementary School", "Cottage Lake Elementary School", "Crystal Springs Elementary School", "East Ridge Elementary School", "Fernwood Elementary School", "Frank Love Elementary School", "Hollywood Hill Elementary School", "Kenmore Elementary School", "Kokanee Elementary School", "Lockwood Elementary School", "Maywood Hills Elementary School", "Moorlands Elementary School", "Ruby Bridges Elementary School", "Shelton View Elementary School", "Sunrise Elementary School", "Wellington Elementary School", "Westhill Elementary School", "Woodin Elementary School", "Woodmoor Elementary School"],
+        "3rd": ["Arrowhead Elementary School", "Canyon Creek Elementary School", "Cottage Lake Elementary School", "Crystal Springs Elementary School", "East Ridge Elementary School", "Fernwood Elementary School", "Frank Love Elementary School", "Hollywood Hill Elementary School", "Kenmore Elementary School", "Kokanee Elementary School", "Lockwood Elementary School", "Maywood Hills Elementary School", "Moorlands Elementary School", "Ruby Bridges Elementary School", "Shelton View Elementary School", "Sunrise Elementary School", "Wellington Elementary School", "Westhill Elementary School", "Woodin Elementary School", "Woodmoor Elementary School"],
+        "4th": ["Arrowhead Elementary School", "Canyon Creek Elementary School", "Cottage Lake Elementary School", "Crystal Springs Elementary School", "East Ridge Elementary School", "Fernwood Elementary School", "Frank Love Elementary School", "Hollywood Hill Elementary School", "Kenmore Elementary School", "Kokanee Elementary School", "Lockwood Elementary School", "Maywood Hills Elementary School", "Moorlands Elementary School", "Ruby Bridges Elementary School", "Shelton View Elementary School", "Sunrise Elementary School", "Wellington Elementary School", "Westhill Elementary School", "Woodin Elementary School", "Woodmoor Elementary School"],
+        "5th": ["Arrowhead Elementary School", "Canyon Creek Elementary School", "Cottage Lake Elementary School", "Crystal Springs Elementary School", "East Ridge Elementary School", "Fernwood Elementary School", "Frank Love Elementary School", "Hollywood Hill Elementary School", "Kenmore Elementary School", "Kokanee Elementary School", "Lockwood Elementary School", "Maywood Hills Elementary School", "Moorlands Elementary School", "Ruby Bridges Elementary School", "Shelton View Elementary School", "Sunrise Elementary School", "Wellington Elementary School", "Westhill Elementary School", "Woodin Elementary School", "Woodmoor Elementary School"],
+        "6th": ["Canyon Park Middle School", "Kenmore Middle School", "Leota Middle School", "Skyview Middle School", "Northshore Middle School", "Timbercrest Middle School"],
+        "7th": ["Canyon Park Middle School", "Kenmore Middle School", "Leota Middle School", "Skyview Middle School", "Northshore Middle School", "Timbercrest Middle School"],
+        "8th": ["Canyon Park Middle School", "Kenmore Middle School", "Leota Middle School", "Skyview Middle School", "Northshore Middle School", "Timbercrest Middle School"]
+    },
+    "BSD": {
+        "Kindergarten": ["BSD Elementary School 1", "BSD Elementary School 2"],
+        "1st": ["BSD Elementary School 1", "BSD Elementary School 2"],
+        "2nd": ["BSD Elementary School 1", "BSD Elementary School 2"],
+        "3rd": ["BSD Elementary School 1", "BSD Elementary School 2"],
+        "4th": ["BSD Elementary School 1", "BSD Elementary School 2"],
+        "5th": ["BSD Elementary School 1", "BSD Elementary School 2"],
+        "6th": ["BSD Middle School 1", "BSD Middle School 2"],
+        "7th": ["BSD Middle School 1", "BSD Middle School 2"],
+        "8th": ["BSD Middle School 1", "BSD Middle School 2"]
+    },
+    "GSD": {
+        "Kindergarten": ["GSD Elementary School 1", "GSD Elementary School 2"],
+        "1st": ["GSD Elementary School 1", "GSD Elementary School 2"],
+        "2nd": ["GSD Elementary School 1", "GSD Elementary School 2"],
+        "3rd": ["GSD Elementary School 1", "GSD Elementary School 2"],
+        "4th": ["GSD Elementary School 1", "GSD Elementary School 2"],
+        "5th": ["GSD Elementary School 1", "GSD Elementary School 2"],
+        "6th": ["GSD Middle School 1", "GSD Middle School 2"],
+        "7th": ["GSD Middle School 1", "GSD Middle School 2"],
+        "8th": ["GSD Middle School 1", "GSD Middle School 2"]
+    }
+}
