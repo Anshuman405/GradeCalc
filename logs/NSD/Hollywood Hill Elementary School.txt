@@ -107,3 +107,4 @@ Test Testing, ID: 0000001, Grade: 3rd, Percentage: 69.70%, Letter: D
 Test Testing, ID: 0000001, Grade: 3rd, Percentage: 73.46%, Letter: C
 Test Testing, ID: 0000001, Grade: 3rd, Percentage: 19.47%, Letter: F
 Test Testing, ID: 0000001, Grade: 3rd, Percentage: 19.47%, Letter: F
+Test Testing, ID: 0000001, Grade: 3rd, Percentage: 87.06%, Letter: B
